@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500&display=swap');
+
+* {   box-sizing:border-box;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: linear-gradient(-45deg,#000066, #663300, #993366, #00cc00);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+
+}
+
+li, a, button {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+nav{
+  width: 100%;
+  height: 75px;
+  background-color: #505d61;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a { 
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+
+.nav_links li a:hover {
+  color: red;
+}
+
+
+.titles h2 {
+  padding-top: 8%;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.whoami h3 {
+  text-decoration-color: black ;
+  font-size: 65px;
+}
+
+
+.whoami2 {
+  padding-bottom: 15%;
+}
+
+.inner-footer{
+  margin: 0;
+  padding: 35px;
+  background-color: #272727;
+}
+
+.social-med {
+  display: flex;
+}
+
+.social-med ul{
+  display: flex;
+}
+
+.social-items {
+  padding-bottom: 10px;
+  padding-top: 5px;
+   width: 150px;
+  height: 30px;
+  margin: auto; 
+  life-style: none;
+}
+
+.social-items a {
+  padding: 10px 20px;
+  font-size: 35px;
+
+}
+
+.outer-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #272727;
+}
+
